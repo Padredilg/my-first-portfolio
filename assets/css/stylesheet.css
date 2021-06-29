@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    background: rgb(236, 236, 236);
+}
+
+header nav{
+    margin-top: 20%;
+    padding: 0 2%;
+}
+
+header li{
+    padding: 20% 0;
+    border: 1px solid #333;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10% 0;
+}
+
+header a{
+    text-decoration: none;
+    color: #333;
+    font-size: large;
+}
+
+main{
+   margin-left: 15%;
+   padding: 0 19px;
+   text-align: center;
+}
+
+main h1{
+    padding: 16px 0 22px 0;
+
+}
+
+.about-me img{
+    width: 65%;
+    border-radius: 40px;
+}
+
+.about-me p{
+    text-align: center;
+    width: 65%;
+    padding: 12px 0 25px 0;
+    margin: auto;
+}
