@@ -108,6 +108,8 @@ main section{
     width: 42%; 
 }
 
+
+
 .projects ul li a img {
     width: 100%;
     border-radius: 25px;
@@ -117,6 +119,34 @@ main section{
     text-align: center;
     width: 100%;
     font-size: 24px;
-    color: black;
 }
 
+.run-buddy-title{
+    color: #024e76;
+}
+
+.run-buddy-title span{
+    color: #fce138;
+}
+
+.horiseon-title{
+    color: #2a607c;
+}
+
+.horiseon-title span{
+    color: #d9dcd6;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.skills div ul li {
+    list-style: inside;
+    text-align: left;
+}
