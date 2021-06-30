@@ -13,9 +13,10 @@ a{
 }
 
 body{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Alata, Helvetica, Arial, sans-serif;
     background: rgb(255, 255, 255);
 }
+
 
 header{
     height: 100%;
@@ -56,11 +57,16 @@ main{
 main h1{
     padding: 16px 0 22px 0;
     text-align: left;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Bilbo Swash Caps, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
-    color: indigo;
+    color: rgb(103, 59, 134);
     border-bottom: 5px solid #dfd4d4;
     border-radius: 5%;
+}
+
+main h1 span{
+    font-size: 42px;
+    color: black;
 }
 
 main section{
@@ -110,6 +116,7 @@ main section{
 .projects ul li h4{
     text-align: center;
     width: 100%;
-    font-size: 19px;
+    font-size: 24px;
+    color: black;
 }
 
