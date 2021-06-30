@@ -30,17 +30,32 @@ header nav{
     padding: 14px 10%;
 }
 
-header li{
-    padding: 25% 0 11% 0;
+header nav ul {
+    margin-top: 50%;
+}
+
+header nav ul li{
+    padding: 9% 0;
     border-bottom: 1px solid rgb(173, 173, 173);
     text-align: center;
     width: 100%;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin: 21% 0;
+    margin: 45% 0;
 }
 
-header a{
+header nav ul li:hover {
+    background: whitesmoke;
+    /* color: whitesmoke; */
+    /* border-top-right-radius: 20px; */
+}
+
+header nav ul li a:hover {
+    color: #673b86;
+    background: whitesmoke;
+}
+
+header nav ul li a{
     color: #545454;
     font-size: 18px;
     font-style: italic;
@@ -149,4 +164,7 @@ main section{
 .skills div ul li {
     list-style: inside;
     text-align: left;
+
 }
+
+
