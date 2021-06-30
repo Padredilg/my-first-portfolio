@@ -115,7 +115,7 @@ main section{
     margin: 0 auto;
 }
 
-.projects ul{
+.projects div ul{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -124,20 +124,24 @@ main section{
     margin: 0 auto;
 }
 
-.projects ul li {
+.projects div ul li {
     width: 30%;
     margin: 3% auto; 
 }
 
-.projects ul li a img {
+.projects div ul li a img {
     width: 100%;
     border-radius: 25px;
 }
 
-.projects ul li h4{
+.projects div ul li h4{
     text-align: center;
     width: 100%;
     font-size: 24px;
+}
+
+.projects div ul li:hover {
+    width: 30.5%;
 }
 
 .run-buddy-title{
@@ -161,8 +165,12 @@ main section{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    width: 50%;
+    width: 89%;
     margin: 0 auto;
+}
+
+.skills div {
+    margin: 4% auto;
 }
 
 .skills div ul li {
