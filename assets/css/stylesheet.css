@@ -77,7 +77,7 @@ main h1 {
 }
 
 main h1 span{
-    font-size: 42px;
+    /*font-size: 42px;*/
     color: black;
 }
 
@@ -121,28 +121,28 @@ main section{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    width: 89%;
+    width: 95%;
     margin: 0 auto;
 }
 
 .projects div ul li {
-    width: 30%;
+    width: 50%;
     margin: 3% auto; 
 }
 
 .projects div ul li a img {
-    width: 100%;
+    width: 20vw;
     border-radius: 25px;
 }
 
 .projects div ul li h4{
     text-align: center;
     width: 100%;
-    font-size: 24px;
+    font-size: 25px;
 }
 
-.projects div ul li:hover {
-    width: 30.5%;
+.projects div ul li img:hover {
+    width: 21vw;
 }
 
 .run-buddy-title{
@@ -257,7 +257,6 @@ main section{
 }
 /*Connect Styles end*/
 
-/*Media Queries for screens 980px width or less*/
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px){
     header {
@@ -298,7 +297,7 @@ main section{
 
     main h1{
         margin: 0 auto 0 auto;
-        padding: 79px 30px 0 0;
+        padding: 79px 0 0 30px;
         text-align: left;
     }
 
@@ -308,5 +307,42 @@ main section{
 
     .about-me p{
         width: 75%;
+    }
+
+    .projects div ul li a img{
+        width: 28vw;
+    }
+
+    .projects div ul li a img:hover{
+        width: 29vw;
+    }
+
+    .projects div ul li h4{
+        font-size: 26px;
+    }
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+
+    h3{
+        font-size: 2.65vw;
+    }
+
+    main h1{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        font-size:6vw
+    }
+
+    .section-title{
+        font-size: 6vw;
+    }
+
+    .about-me p {
+        width: 100%;
+        padding: 5vw 6vw;
+        font-size: 2.2vw;
     }
 }
