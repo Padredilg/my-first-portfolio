@@ -131,7 +131,7 @@ main section{
 }
 
 .projects div ul li a img {
-    width: 20vw;
+    width: 25vw;
     border-radius: 25px;
 }
 
@@ -142,7 +142,7 @@ main section{
 }
 
 .projects div ul li img:hover {
-    width: 21vw;
+    width: 26vw;
 }
 
 .run-buddy-title{
@@ -310,15 +310,15 @@ main section{
     }
 
     .projects div ul li a img{
-        width: 28vw;
+        width: 32vw;
     }
 
     .projects div ul li a img:hover{
-        width: 29vw;
+        width: 33vw;
     }
 
     .projects div ul li h4{
-        font-size: 26px;
+        font-size: 29px;
     }
 }
 
@@ -326,7 +326,7 @@ main section{
 @media screen and (max-width: 768px){
 
     h3{
-        font-size: 2.65vw;
+        font-size: 3vw;
     }
 
     main h1{
@@ -344,5 +344,89 @@ main section{
         width: 100%;
         padding: 5vw 6vw;
         font-size: 2.2vw;
+    }
+
+    .projects div ul li a img{
+        width: 33vw;
+    }
+
+    .projects div ul li a img:hover{
+        width: 34vw;
+    }
+
+    .projects div ul li h4{
+        font-size: 28px;
+    }
+}
+
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+
+    h3{
+        font-size: 5vw;
+    }
+
+    header nav ul a li{
+        padding: 2vw 3vw;
+        font-size: 16.5px
+    }
+
+    main h1{
+        border-bottom: 3px solid var(--tertiary-color);
+        font-size: 7vw;
+    }
+
+    .section-title{
+        width: 98%;
+    }
+
+    .content{
+        width: 92%;
+    }
+
+    .about-me img{
+        width: 73vw;
+    }
+
+    .about-me p{
+        padding: 4vw 5vw;
+        font-size: 3.25vw;
+    }
+    
+    .projects div ul{
+        padding: 0 0 13px 0;
+    }
+
+    .projects div ul li{
+        width: 100%;
+        margin: 7% auto 0 auto;
+    }
+
+    .projects div ul li a img{
+        width: 70vw;
+    }
+
+    .skills div{
+        width: 100%;
+    }
+
+    .skills div ul{
+        text-align: center;
+    }
+
+    .skills div ul li {
+        font-size: 4vw;
+    }
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 360px){
+    .section-title{
+        font-size: 7vw;
+    }
+
+    header nav ul a li{
+        font-size: 14.75px
     }
 }
