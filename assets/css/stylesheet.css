@@ -20,7 +20,7 @@ a{
 
 body{
     font-family: Alata, Helvetica, Arial, sans-serif;
-    background: rgb(255, 255, 255);
+    background: linear-gradient(45deg, var(--tertiary-color), transparent);
 }
 
 
@@ -28,7 +28,7 @@ header{
     height: 100%;
     width: 14%;
     position: fixed;
-    background: linear-gradient(85deg, var(--tertiary-color), transparent);
+    /*background: linear-gradient(85deg, var(--tertiary-color), transparent);*/
 }
 
 header nav{
@@ -73,7 +73,7 @@ main h1 {
     color: var(--primary-color);
     border-bottom: 5px solid var(--tertiary-color);
     border-radius: 0 0 6% 6%;
-    background: linear-gradient(323deg, var(--secondary-color), transparent);
+    /*background: linear-gradient(323deg, var(--secondary-color), transparent);*/
 }
 
 main h1 span{
@@ -255,5 +255,58 @@ main section{
     color: var(--primary-color);
     background: var(--tertiary-color);
 }
+/*Connect Styles end*/
 
+/*Media Queries for screens 980px width or less*/
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px){
+    header {
+        margin: 0;
+        height: 66px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background: linear-gradient(85deg, var(--tertiary-color), whitesmoke);
+    }
 
+    header nav {
+        margin-top: 0%;
+        padding: 0;
+        width: 100%;
+    }
+
+    header nav ul {
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    header nav ul a li {
+        padding: 6px 25px;
+        margin: 0;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    
+    main{
+        margin: 0 auto;
+    }
+
+    main h1{
+        margin: 0 auto 0 auto;
+        padding: 79px 30px 0 0;
+        text-align: left;
+    }
+
+    .about-me img{
+        width: 75%;
+    }
+
+    .about-me p{
+        width: 75%;
+    }
+}
