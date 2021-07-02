@@ -25,7 +25,7 @@ html{
 body{
     font-family: Alata, Helvetica, Arial, sans-serif;
     background: linear-gradient(45deg, var(--tertiary-color), transparent);
-    background-image: url("./../images/bg-img.jpg");
+    background-image: url("./../images/bg-img2.jpg");
     background-size: cover;
 }
 
@@ -62,7 +62,7 @@ header nav ul a li{
 header nav ul a li:hover {
     background: rgba(255,255,255,.8);
     color: var(--primary-color);
-    width: 110%;
+    transform: scale(1.1);
 }
 
 main{
@@ -131,6 +131,7 @@ main section{
     justify-content: space-around;
     width: 95%;
     margin: 0 auto;
+    padding: 0 0 15px 0;
 }
 
 .projects div ul li {
@@ -152,22 +153,19 @@ main section{
     width: 44vw;
 }
 
-#run-buddy-img:hover{
-    width: 45vw;
-}
-
 #horiseon-img{
     width: 35vw;
 }
 
-#horiseon-img:hover{
-    width: 36vw;
+.projects div ul li a img:hover{
+    transform: scale(1.05);
 }
 
-.projects div ul li h4{
+.projects div ul li h4 {
     text-align: center;
-    width: 100%;
-    font-size: 33px;
+    width: fit-content;
+    font-size: 2.2em;
+    margin: 5px auto 0 auto;
 }
 
 .run-buddy-title{
@@ -246,7 +244,7 @@ main section{
 }
 
 .contact-links ul li a img:hover{
-    width: 51px;
+    transform: scale(1.1);
 }
 
 #indeed-img{
@@ -256,7 +254,7 @@ main section{
 }
 
 #indeed-img:hover{
-    width: 70px;
+    transform: scale(1.1);
 }
 
 .contact-form input, .contact-form textarea{
@@ -273,7 +271,7 @@ main section{
 }
 
 .contact-form input:focus, .contact-form textarea:focus{
-    background-color: rgba(255,255,255,.88);
+    background-color: rgba(255,255,255,.95);
     outline: none;
 }
 
@@ -295,9 +293,26 @@ main section{
 .contact-form button:hover{
     color: var(--primary-color);
     background: var(--secondary-color);
-    font-weight: bold
+    font-weight: bold;
 }
 /*Connect Styles end*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(103, 59, 134,.72), transparent);
+}
+
+footer h4 {
+    margin: 25px auto 10px auto;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: normal;
+    color: rgba(255, 255, 255, .82);
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px){
@@ -360,21 +375,14 @@ main section{
         width: 56vw;
     }
     
-    #run-buddy-img:hover{
-        width: 57vw;
-    }
-    
     #horiseon-img{
         width: 42vw;
-    }
-    
-    #horiseon-img:hover{
-        width: 43vw;
     }
 
     .projects div ul li h4{
         font-size: 29px;
     }
+    
 }
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER*/
@@ -404,14 +412,6 @@ main section{
         width: 100%;
         padding: 5vw 6vw;
         font-size: 15px;
-    }
-
-    .projects div ul li a img{
-        width: 33vw;
-    }
-
-    .projects div ul li a img:hover{
-        width: 34vw;
     }
 
     .projects div ul li h4{
@@ -467,6 +467,10 @@ main section{
         padding: 14px 0px 0 0;
         margin: 0 0 0 5px;
     }
+
+    footer h4 {
+        font-size: 16px;
+    }
 }
 
 /*MEDIA QUERY FOR BIG MOBILE PHONES*/
@@ -504,7 +508,7 @@ main section{
     }
 
     .about-me p{
-        padding: 4vw 5vw;
+        padding: 5vw 5vw;
         font-size: 3.25vw;
     }
     
@@ -521,16 +525,8 @@ main section{
         width: 69vw;
     }
     
-    #run-buddy-img:hover{
-        width: 70vw;
-    }
-    
     #horiseon-img{
         width: 54vw;
-    }
-    
-    #horiseon-img:hover{
-        width: 55vw;
     }
     
     .projects div ul li h3 {
@@ -553,6 +549,10 @@ main section{
 
     .contact-form input::placeholder, .contact-form textarea::placeholder{
         color: rgba(0, 0, 0, .7);
+    }
+
+    footer h4{
+        font-size: 2.9vw;
     }
 }
 
@@ -580,6 +580,10 @@ main section{
         padding: 3px 0px 0 0;
         margin: 0;
     }
+
+    footer h4 {
+        font-size: 2.9vw;
+    }
 }
 
 /*MEDIA QUERY FOR SMALL MOBILE PHONES*/
@@ -598,10 +602,6 @@ main section{
 
     #horiseon-img{
         width: 57vw;
-    }
-    
-    #horiseon-img:hover{
-        width: 58vw;
     }
 
     .contact-links ul li a img {
