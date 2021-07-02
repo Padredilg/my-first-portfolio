@@ -21,7 +21,7 @@ a{
 body{
     font-family: Alata, Helvetica, Arial, sans-serif;
     background: linear-gradient(45deg, var(--tertiary-color), transparent);
-    background-image: url("./../images/Purp.jpg");
+    background-image: url("./../images/bg-img.jpg");
     background-size: cover;
 }
 
