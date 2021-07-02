@@ -18,6 +18,10 @@ a{
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: Alata, Helvetica, Arial, sans-serif;
     background: linear-gradient(45deg, var(--tertiary-color), transparent);
@@ -130,23 +134,40 @@ main section{
 }
 
 .projects div ul li {
-    width: 50%;
-    margin: 3% auto; 
+    width: 100%;
+    margin: 2% auto; 
+}
+
+.projects div ul li h3{
+    font-size: 22px;
+    margin: 20px auto;
+    padding: 0 0 0 4px;
 }
 
 .projects div ul li a img {
-    width: 25vw;
     border-radius: 25px;
+}
+
+#run-buddy-img{
+    width: 44vw;
+}
+
+#run-buddy-img:hover{
+    width: 45vw;
+}
+
+#horiseon-img{
+    width: 35vw;
+}
+
+#horiseon-img:hover{
+    width: 36vw;
 }
 
 .projects div ul li h4{
     text-align: center;
     width: 100%;
-    font-size: 25px;
-}
-
-.projects div ul li img:hover {
-    width: 26vw;
+    font-size: 33px;
 }
 
 .run-buddy-title{
@@ -335,12 +356,20 @@ main section{
         width: 75%;
     }
 
-    .projects div ul li a img{
-        width: 32vw;
+    #run-buddy-img{
+        width: 56vw;
     }
-
-    .projects div ul li a img:hover{
-        width: 33vw;
+    
+    #run-buddy-img:hover{
+        width: 57vw;
+    }
+    
+    #horiseon-img{
+        width: 42vw;
+    }
+    
+    #horiseon-img:hover{
+        width: 43vw;
     }
 
     .projects div ul li h4{
@@ -488,12 +517,24 @@ main section{
         margin: 7% auto 0 auto;
     }
 
-    .projects div ul li a img{
+    #run-buddy-img{
+        width: 69vw;
+    }
+    
+    #run-buddy-img:hover{
         width: 70vw;
     }
-
-    .projects div ul li a img:hover{
-        width: 72vw;
+    
+    #horiseon-img{
+        width: 54vw;
+    }
+    
+    #horiseon-img:hover{
+        width: 55vw;
+    }
+    
+    .projects div ul li h3 {
+        font-size: 5vw;
     }
 
     .skills div{
@@ -555,6 +596,14 @@ main section{
         font-size: 14.75px
     }
 
+    #horiseon-img{
+        width: 57vw;
+    }
+    
+    #horiseon-img:hover{
+        width: 58vw;
+    }
+
     .contact-links ul li a img {
         width: 10vw;
     }
@@ -569,8 +618,6 @@ main section{
 }
 
 /*I should:
-  - how to fix connect link hovering text shifting
   - find out about how to link email with contact me form
-  - check about criteria that first work must be bigger
   - include cover page on top of about Me with name in white right in the middle + link to scroll down
  */
