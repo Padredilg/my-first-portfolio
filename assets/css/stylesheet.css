@@ -240,7 +240,7 @@ main section{
 
 .contact-form input, .contact-form textarea{
     border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+    border-radius: 15px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
@@ -256,10 +256,14 @@ main section{
     outline: none;
 }
 
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color: rgba(0, 0, 0, .5);
+}
+
 .contact-form button{
     width: 100%;
     border: none;
-    border-radius: 10px;
+    border-radius: 18px;
     background: var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
@@ -505,6 +509,10 @@ main section{
     .skills div ul li {
         font-size: 4vw;
     }
+
+    .contact-form input::placeholder, .contact-form textarea::placeholder{
+        color: rgba(0, 0, 0, .7);
+    }
 }
 
 /*MEDIA QUERY FOR BIG MOBILE PHONES*/
@@ -561,10 +569,8 @@ main section{
 }
 
 /*I should:
-  - check if about me text font works good in all queries
   - how to fix connect link hovering text shifting
-  - what is the .vscode on my repo??
   - find out about how to link email with contact me form
   - check about criteria that first work must be bigger
-  - compliment other's portfolios on slack 
+  - include cover page on top of about Me with name in white right in the middle + link to scroll down
  */
