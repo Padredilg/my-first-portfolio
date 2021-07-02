@@ -61,7 +61,7 @@ header nav ul a li:hover {
 
 main{
    margin-left: 14%;
-   padding: 0 19px;
+   padding: 0 19px 50px 19px;
    text-align: center;
 }
 
@@ -185,6 +185,8 @@ main section{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 20px;
 }
 
 .contact-info > *{
@@ -217,7 +219,7 @@ main section{
     margin: -5px auto;
 }
 
-#indeed{
+#indeed-img{
     width: 50px;
     margin: 0px -5px 0 -10px;
 }
@@ -295,6 +297,11 @@ main section{
         margin: 0 auto;
     }
 
+    main section{
+        padding: 30px 0 -10px 0;
+        margin: 0 auto;
+    }
+
     main h1{
         margin: 0 auto 0 auto;
         padding: 79px 0 0 30px;
@@ -329,6 +336,11 @@ main section{
         font-size: 3vw;
     }
 
+    main section{
+        padding: 30px 0 0 0;
+        margin: 0 0 -20px 0;
+    }
+
     main h1{
         width: 100%;
         text-align: center;
@@ -357,10 +369,55 @@ main section{
     .projects div ul li h4{
         font-size: 28px;
     }
+
+    .contact-info {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .contact-info > * {
+        margin: 3vw;
+    }
+
+    .contact-form {
+        border-bottom: 1px solid rgba(0,0,0, .8);
+        border-radius: 1px;
+        padding: 0 0 17px 0;
+    }
+
+    .contact-links ul {
+        margin: 0;
+    }
+    .contact-links ul li{
+        line-height: 1;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-links ul li a {
+        display: flex;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .contact-links ul li a p {
+        padding: 4px 0px 0 5px;
+    }
+
+    #indeed-img {
+        width: 52px;
+        margin: 0 -15px;
+    }
+
+    #indeed-text {
+        padding: 7px 0px 0 0;
+        margin: 0 0 0 5px;
+    }
 }
 
-
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+/*MEDIA QUERY FOR BIG MOBILE PHONES*/
 @media screen and (max-width: 575px){
 
     h3{
@@ -370,6 +427,11 @@ main section{
     header nav ul a li{
         padding: 2vw 3vw;
         font-size: 16.5px
+    }
+
+    main section{
+        padding: 45px 0 0 0;
+        margin: 0 0 -15px 0;
     }
 
     main h1{
@@ -409,10 +471,12 @@ main section{
 
     .skills div{
         width: 100%;
+        padding: 0 0 10px 0;
     }
 
-    .skills div ul{
-        text-align: center;
+    .skills div ul {
+        width: fit-content;
+        margin: 0 auto;
     }
 
     .skills div ul li {
@@ -420,13 +484,46 @@ main section{
     }
 }
 
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
-@media screen and (max-width: 360px){
+/*MEDIA QUERY FOR BIG MOBILE PHONES*/
+@media screen and (max-width: 450px){
+    .contact-links ul li a{
+       flex-direction: column; 
+    }
+
+    .contact-links ul li a p {
+        margin-left: 0;
+        padding: 8px 0 0 0;
+    }
+
+    #indeed-img {
+        margin: 0;
+    }
+
+    #indeed-text {
+        padding: 3px 0px 0 0;
+        margin: 0;
+    }
+}
+
+/*MEDIA QUERY FOR SMALL MOBILE PHONES*/
+@media screen and (max-width: 395px){
     .section-title{
         font-size: 7vw;
     }
 
     header nav ul a li{
         font-size: 14.75px
+    }
+
+    .contact-links ul li a img {
+        width: 10vw;
+    }
+
+    #indeed-img {
+        width: 15vw;
+    }
+
+    .contact-links ul li a p {
+        font-size: 4.75vw;
     }
 }
