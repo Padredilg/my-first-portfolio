@@ -1,7 +1,7 @@
 :root{
     --primary-color: rgb(103, 59, 134);
     --secondary-color: #f8f5f5;
-    --tertiary-color: #dfd4d4;
+    --tertiary-color: rgb(214, 149, 255);
 }
 
 *{
@@ -21,13 +21,15 @@ a{
 body{
     font-family: Alata, Helvetica, Arial, sans-serif;
     background: linear-gradient(45deg, var(--tertiary-color), transparent);
+    background-image: url("./../images/Purp.jpg");
+    background-size: cover;
 }
-
 
 header{
     height: 100%;
     width: 14%;
     position: fixed;
+    z-index: 10;
     /*background: linear-gradient(85deg, var(--tertiary-color), transparent);*/
 }
 
@@ -42,7 +44,7 @@ header nav ul {
 
 header nav ul a li{
     padding: 9% 0;
-    color: #545454;
+    color: white;
     font-size: 18px;
     font-weight: 150;
     text-align: center;
@@ -54,9 +56,9 @@ header nav ul a li{
 }
 
 header nav ul a li:hover {
-    background: whitesmoke;
+    background: rgba(255,255,255,.8);
     color: var(--primary-color);
-    width: 105%;
+    width: 110%;
 }
 
 main{
@@ -70,15 +72,14 @@ main h1 {
     text-align: left;
     font-family: Alata, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 42px;
-    color: var(--primary-color);
+    color: white;
     border-bottom: 5px solid var(--tertiary-color);
     border-radius: 0 0 6% 6%;
-    /*background: linear-gradient(323deg, var(--secondary-color), transparent);*/
 }
 
 main h1 span{
     /*font-size: 42px;*/
-    color: black;
+    color: var(--tertiary-color);
 }
 
 main section{
@@ -93,10 +94,11 @@ main section{
     text-align: center;
     margin: 4% auto 0 auto;
     width: 89%;
+    color: white;
 }
 
 .content {
-    background: var(--secondary-color);
+    background: rgba(255,255,255,.28);
     width: 80%;
     margin: 0px auto;
     border-radius: 0 0 50px 50px;
@@ -107,6 +109,7 @@ main section{
     margin: 4% auto 0 auto;
     width: 65%;
     border-radius: 40px;
+    opacity: .95;
 }
 
 .about-me p {
@@ -248,7 +251,7 @@ main section{
 }
 
 .contact-form input:focus, .contact-form textarea:focus{
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,.88);
     outline: none;
 }
 
@@ -265,7 +268,8 @@ main section{
 
 .contact-form button:hover{
     color: var(--primary-color);
-    background: var(--tertiary-color);
+    background: var(--secondary-color);
+    font-weight: bold
 }
 /*Connect Styles end*/
 
