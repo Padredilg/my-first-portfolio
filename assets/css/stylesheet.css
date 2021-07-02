@@ -215,13 +215,23 @@ main section{
 }
 
 .contact-links ul li a img{
-    width: 34px;
+    width: 46px;
     margin: -5px auto;
+    align-self: center
+}
+
+.contact-links ul li a img:hover{
+    width: 51px;
 }
 
 #indeed-img{
-    width: 50px;
+    width: 64px;
     margin: 0px -5px 0 -10px;
+    align-self: center
+}
+
+#indeed-img:hover{
+    width: 70px;
 }
 
 .contact-form input, .contact-form textarea{
@@ -345,7 +355,7 @@ main section{
         width: 100%;
         text-align: center;
         padding-left: 0;
-        font-size:6vw
+        font-size:5.5vw
     }
 
     .section-title{
@@ -403,16 +413,20 @@ main section{
     }
 
     .contact-links ul li a p {
+        padding: 10px 0px 0 5px;
+    }
+    
+    .contact-links ul li a img {
         padding: 4px 0px 0 5px;
+        width: 42px;
     }
 
     #indeed-img {
-        width: 52px;
         margin: 0 -15px;
     }
 
     #indeed-text {
-        padding: 7px 0px 0 0;
+        padding: 14px 0px 0 0;
         margin: 0 0 0 5px;
     }
 }
@@ -469,6 +483,10 @@ main section{
         width: 70vw;
     }
 
+    .projects div ul li a img:hover{
+        width: 72vw;
+    }
+
     .skills div{
         width: 100%;
         padding: 0 0 10px 0;
@@ -496,7 +514,8 @@ main section{
     }
 
     #indeed-img {
-        margin: 0;
+        margin: -2px 0 0 0;
+        padding: 0;
     }
 
     #indeed-text {
@@ -527,3 +546,11 @@ main section{
         font-size: 4.75vw;
     }
 }
+
+/*I should:
+  - check if about me text font works good in all queries
+  - emboss/bevel page and section titles
+  - find out about how to link email with contact me form
+  - check about criteria that first work must be bigger
+  - compliment other's portfolios on slack 
+ */
