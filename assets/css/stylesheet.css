@@ -283,7 +283,7 @@ main section{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        background: linear-gradient(85deg, var(--tertiary-color), whitesmoke);
+        background: linear-gradient(180deg, var(--primary-color), transparent);
     }
 
     header nav {
