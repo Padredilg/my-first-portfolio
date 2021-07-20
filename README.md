@@ -1,7 +1,3 @@
-### Note
-
-Create Issue for new projects and Cover
-
 # Luiz Guilherme Padredi
 
 # My-Portfolio :pencil:
@@ -26,4 +22,3 @@ Screenshots from Website:
 ## :clap: Credits
 
 :hammer_and_wrench: Created by Luiz Guilherme Padredi
-
