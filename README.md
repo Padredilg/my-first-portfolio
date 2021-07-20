@@ -1,12 +1,29 @@
-# My Portfolio
-
-## Description
-
-This is my first attempt at creating my Portfolio using the only programming languages I know so far: HTML, and CSS.
-
 ### Note
 
-This portfolio will be continuosly improved as I learn new languages of programming.
+Create Issue for new projects and Cover
 
--- Next, I will add a cover to this portfolio introducing myself to the viewer.
+# Luiz Guilherme Padredi
+
+# My-Portfolio :pencil:
+
+## :label: Description
+This is my first attempt at creating a personalized portfolio for myself.
+
+## 	:hash: Coding Languages Used
+:heavy_check_mark: HTML</br>
+:heavy_check_mark: CSS</br>
+
+## :desktop_computer: Website
+Link to Website: https://padredilg.github.io/my-portfolio/
+</br></br>
+Screenshots from Website:
+![screenshot of website](./assets/images/portfolio-ss1.png)
+![screenshot of website](./assets/images/portfolio-ss2.png)
+![screenshot of website](./assets/images/portfolio-ss3.png)
+![screenshot of website](./assets/images/portfolio-ss4.png)
+![screenshot of website](./assets/images/portfolio-ss5.png)
+
+## :clap: Credits
+
+:hammer_and_wrench: Created by Luiz Guilherme Padredi
 
