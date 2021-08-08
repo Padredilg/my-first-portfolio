@@ -57,6 +57,7 @@ header nav ul a li{
     border-bottom-right-radius: 20px;
     margin: 45% 0;
     box-shadow: -5px 9px 7px rgb(0 0 0 / 20%);
+    transition: all .25s ease-in-out;
 }
 
 header nav ul a li:hover {
@@ -131,11 +132,11 @@ main section{
     justify-content: space-around;
     width: 95%;
     margin: 0 auto;
-    padding: 0 0 15px 0;
+    padding: 13px 0 15px 0;
 }
 
 .projects div ul li {
-    width: 100%;
+    width: fit-content;
     margin: 2% auto; 
 }
 
@@ -146,15 +147,17 @@ main section{
 }
 
 .projects div ul li a img {
-    border-radius: 25px;
+    border-radius: 7px;
 }
 
-#run-buddy-img{
-    width: 44vw;
+.primary-img{
+    width: 40rem;
+    transition: all .25s ease-in-out;
 }
 
-#horiseon-img{
-    width: 35vw;
+.secondary-img{
+    width: 16.5rem;
+    transition: all .25s ease-in-out;
 }
 
 .projects div ul li a img:hover{
@@ -164,7 +167,7 @@ main section{
 .projects div ul li h4 {
     text-align: center;
     width: fit-content;
-    font-size: 2.2em;
+    font-size: 1.75rem;
     margin: 5px auto 0 auto;
 }
 
@@ -182,6 +185,40 @@ main section{
 
 .horiseon-title span{
     color: #d9dcd6;
+}
+
+.decide-eat-title{
+    color: #FFFCF7;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.code-quiz-title {
+    color: #060425;
+}
+
+.weather-dash-title {
+    color: rgb(0, 0, 73);
+}
+
+.work-day-scheduler-title {
+    color: rgba(0, 0, 50, 1);
+}
+
+.taskinator-title {
+    color: #44e9ff;
+}
+
+.password-gen-title {
+    color: hsl(206, 17%, 8%);
+}
+
+.taskmaster-title {
+    color: #343a40!important;
+}
+
+.git-it-done-title {
+    color: #38302e;
 }
 
 .skills{
@@ -240,7 +277,8 @@ main section{
 .contact-links ul li a img{
     width: 46px;
     margin: -5px auto;
-    align-self: center
+    align-self: center;
+    transition: all .25s ease-in-out;
 }
 
 .contact-links ul li a img:hover{
@@ -250,7 +288,8 @@ main section{
 #indeed-img{
     width: 64px;
     margin: 0px -5px 0 -10px;
-    align-self: center
+    align-self: center;
+    transition: all .25s ease-in-out;
 }
 
 #indeed-img:hover{
@@ -288,6 +327,7 @@ main section{
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    transition: all .25s ease-in-out;
 }
 
 .contact-form button:hover{
@@ -371,11 +411,11 @@ footer h4 {
         width: 75%;
     }
 
-    #run-buddy-img{
+    .primary-img{
         width: 56vw;
     }
     
-    #horiseon-img{
+    .secondary-img{
         width: 42vw;
     }
 
@@ -521,11 +561,11 @@ footer h4 {
         margin: 7% auto 0 auto;
     }
 
-    #run-buddy-img{
+    .primary-img{
         width: 69vw;
     }
     
-    #horiseon-img{
+    .secondary-img{
         width: 54vw;
     }
     
@@ -596,7 +636,7 @@ footer h4 {
         font-size: 14.75px
     }
 
-    #horiseon-img{
+    .secondary-img{
         width: 57vw;
     }
 
