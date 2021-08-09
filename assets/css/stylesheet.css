@@ -151,8 +151,9 @@ main section{
 }
 
 .primary-img{
-    width: 40rem;
+    width: 43rem;
     transition: all .25s ease-in-out;
+    margin: 0 0 8px 0;
 }
 
 .secondary-img{
@@ -168,7 +169,7 @@ main section{
     text-align: center;
     width: fit-content;
     font-size: 1.75rem;
-    margin: 5px auto 0 auto;
+    margin: 0 auto;
 }
 
 .run-buddy-title{
