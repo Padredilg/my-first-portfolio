@@ -1,6 +1,6 @@
 # Luiz Guilherme Padredi
 
-# My-Portfolio :pencil:
+# My Portfolio :pencil:
 
 ## :label: Description
 This is my first attempt at creating a personalized portfolio for myself.
