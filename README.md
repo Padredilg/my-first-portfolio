@@ -13,7 +13,7 @@ This is my first attempt at creating a personalized portfolio for myself.
 Link to Website: https://padredilg.github.io/my-portfolio/
 </br></br>
 Screenshots from Website:
-![screenshot of website](./assets/images/screen-capture2.png)
+![screenshot of website](./assets/images/screen-capture3.png)
 
 ## :clap: Credits
 

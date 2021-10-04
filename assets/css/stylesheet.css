@@ -151,7 +151,7 @@ main section{
 }
 
 .primary-img{
-    width: 43rem;
+    width: 50rem;
     transition: all .25s ease-in-out;
     margin: 0 0 8px 0;
 }
@@ -192,6 +192,10 @@ main section{
     color: #FFFCF7;
     text-transform: uppercase;
     letter-spacing: 6px;
+}
+
+.campfire-title{
+    color: #FFC069;
 }
 
 .code-quiz-title {
