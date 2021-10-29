@@ -1,6 +1,6 @@
 # Luiz Guilherme Padredi
 
-# My Portfolio :pencil:
+# My First Portfolio :pencil:
 
 ## :label: Description
 This is my first attempt at creating a personalized portfolio for myself using only HTML and CSS.
